@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SNSReservas", "try1\SNSReservas.dtproj", "{0E1B5653-83AE-41DA-9B87-ED3A44E77434}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Train", "Train\Train.dtproj", "{D5D567EA-22F3-4172-8BD0-76A576898CE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +14,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0E1B5653-83AE-41DA-9B87-ED3A44E77434}.Development|Default.ActiveCfg = Development
 		{0E1B5653-83AE-41DA-9B87-ED3A44E77434}.Development|Default.Build.0 = Development
+		{D5D567EA-22F3-4172-8BD0-76A576898CE2}.Development|Default.ActiveCfg = Development
+		{D5D567EA-22F3-4172-8BD0-76A576898CE2}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

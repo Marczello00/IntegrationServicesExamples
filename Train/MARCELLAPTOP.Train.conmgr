@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="MARCELLAPTOP.Train"
+  DTS:DTSID="{A3D01643-0110-4883-A692-B3F707D7F8CB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=MARCELLAPTOP;Initial Catalog=Train;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Train-{A3D01643-0110-4883-A692-B3F707D7F8CB}MARCELLAPTOP.Train;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
