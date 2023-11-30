@@ -1,0 +1,140 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="13e8178b-1b1c-45cc-9512-67314d040742" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Churn</ID>
+  <Name>Churn</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Churn</DataSourceID>
+  <Schema>
+    <xs:schema id="Churn" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Churn" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="0995a4a0-cbb2-40a9-a0db-bc6881745441">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Country" msprop:DbTableName="Country" msprop:FriendlyName="Country" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="0e76d69f-3c6c-4ae5-b29a-f9e9d3ffab6b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Country" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Country" msprop:DbColumnName="ID_Country" msprop:design-time-name="42bb376e-7c56-4bc2-bf77-074786e1b1b3" type="xs:int" />
+                  <xs:element name="Country" msprop:FriendlyName="Country" msprop:DbColumnName="Country" msprop:design-time-name="d5e2df5e-a0f6-45ef-abe4-01274d8a5dec" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Facto" msprop:DbTableName="Facto" msprop:FriendlyName="Facto" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="2753a731-5e49-4292-b1be-870c1c247dea">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Facto" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Facto" msprop:DbColumnName="ID_Facto" msprop:design-time-name="99a7c71f-f034-4789-99be-e5178fcf2b42" type="xs:int" />
+                  <xs:element name="Age" msprop:FriendlyName="Age" msprop:DbColumnName="Age" msprop:design-time-name="92ec9b41-7aff-4b21-bb6b-a40a7edc1dcb" type="xs:int" minOccurs="0" />
+                  <xs:element name="Persistence" msprop:FriendlyName="Persistence" msprop:DbColumnName="Persistence" msprop:design-time-name="1f838c87-9b29-4743-881e-d79be1cca69f" type="xs:int" minOccurs="0" />
+                  <xs:element name="Balance" msprop:FriendlyName="Balance" msprop:DbColumnName="Balance" msprop:design-time-name="90e5c912-9863-4928-9465-5737fd5a1c2d" type="xs:int" minOccurs="0" />
+                  <xs:element name="Number_of_services" msprop:FriendlyName="Number_of_services" msprop:DbColumnName="Number_of_services" msprop:design-time-name="7211b3b4-6fc8-46ac-8810-4fbc695f320e" type="xs:int" minOccurs="0" />
+                  <xs:element name="Member_active" msprop:FriendlyName="Member_active" msprop:DbColumnName="Member_active" msprop:design-time-name="49580c4d-b25a-48d3-94de-47111a7ce249" type="xs:int" minOccurs="0" />
+                  <xs:element name="Salary_estimated" msprop:FriendlyName="Salary_estimated" msprop:DbColumnName="Salary_estimated" msprop:design-time-name="a91d229c-e96f-4fc8-9e4d-b61c53ae44ea" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Country" msprop:FriendlyName="ID_Country" msprop:DbColumnName="ID_Country" msprop:design-time-name="e8ed2e23-a0fd-4578-90a0-7ab538c24b2a" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Gender" msprop:FriendlyName="ID_Gender" msprop:DbColumnName="ID_Gender" msprop:design-time-name="91f134dc-82be-4ca4-b0b9-3f1c0443c194" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Last_name" msprop:FriendlyName="ID_Last_name" msprop:DbColumnName="ID_Last_name" msprop:design-time-name="c2f756b2-3ce8-40fd-af75-e6f38edbfb35" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Gender" msprop:DbTableName="Gender" msprop:FriendlyName="Gender" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="5181f43a-f9e5-48d2-a6d5-23d298b1f900">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Gender" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Gender" msprop:DbColumnName="ID_Gender" msprop:design-time-name="a90f3e53-a997-4945-858a-f8c39f54864a" type="xs:int" />
+                  <xs:element name="Gender" msprop:FriendlyName="Gender" msprop:DbColumnName="Gender" msprop:design-time-name="6ae1970e-13ac-4ba2-9fec-5ae6736e37dc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Last_name" msprop:DbTableName="Last_name" msprop:FriendlyName="Last_name" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6386a7cc-b02c-4c73-b37c-1dc1abdcabbe">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Last_name" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Last_name" msprop:DbColumnName="ID_Last_name" msprop:design-time-name="4748751f-e603-4067-b172-168a8422ce7c" type="xs:int" />
+                  <xs:element name="Last_name" msprop:FriendlyName="Last_name" msprop:DbColumnName="Last_name" msprop:design-time-name="2af9ac7b-015f-476d-904d-a3a4471cd6db" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Country" />
+          <xs:field xpath="ID_Country" />
+        </xs:unique>
+        <xs:unique name="dbo_Facto_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Facto" />
+        </xs:unique>
+        <xs:unique name="dbo_Gender_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Gender" />
+          <xs:field xpath="ID_Gender" />
+        </xs:unique>
+        <xs:unique name="dbo_Last_name_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Last_name" />
+          <xs:field xpath="ID_Last_name" />
+        </xs:unique>
+        <xs:keyref name="FK_Facto_Gender" refer="dbo_Gender_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Gender" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Country" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Country" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Last_name" refer="dbo_Last_name_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Last_name" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Churn xmlns="" />
+  </Schema>
+</DataSourceView>

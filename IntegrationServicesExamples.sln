@@ -7,6 +7,10 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SNSReservas", "try1\SNSRese
 EndProject
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Train", "Train\Train.dtproj", "{D5D567EA-22F3-4172-8BD0-76A576898CE2}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Churn", "Churn\Churn.dtproj", "{FFC17F79-FF33-460F-9A52-C886D112D996}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ChurnAnalysisService", "ChurnAnalysisService\ChurnAnalysisService.dwproj", "{3A61DB01-3694-4ACA-8E59-D96156D7C250}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -16,6 +20,11 @@ Global
 		{0E1B5653-83AE-41DA-9B87-ED3A44E77434}.Development|Default.Build.0 = Development
 		{D5D567EA-22F3-4172-8BD0-76A576898CE2}.Development|Default.ActiveCfg = Development
 		{D5D567EA-22F3-4172-8BD0-76A576898CE2}.Development|Default.Build.0 = Development
+		{FFC17F79-FF33-460F-9A52-C886D112D996}.Development|Default.ActiveCfg = Development
+		{FFC17F79-FF33-460F-9A52-C886D112D996}.Development|Default.Build.0 = Development
+		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.ActiveCfg = Development
+		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.Build.0 = Development
+		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
