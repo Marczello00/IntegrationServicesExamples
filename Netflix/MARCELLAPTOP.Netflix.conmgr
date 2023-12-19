@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="MARCELLAPTOP.Netflix"
+  DTS:DTSID="{97B257AE-B3AE-42A6-9856-EEAFB3E2E025}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=MARCELLAPTOP;Initial Catalog=Netflix;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Netflix-{97B257AE-B3AE-42A6-9856-EEAFB3E2E025}MARCELLAPTOP.Netflix;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

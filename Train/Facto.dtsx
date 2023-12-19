@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Facto"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{B9D49F4B-D421-4136-A74D-B3B90C676526}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{A22F0B29-ED6E-45CE-9055-DA593807E497}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -2229,7 +2229,7 @@ where [refTable].[TicketNumber] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>

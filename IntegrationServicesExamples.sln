@@ -11,6 +11,10 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Churn", "Churn\Churn.dtproj
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ChurnAnalysisService", "ChurnAnalysisService\ChurnAnalysisService.dwproj", "{3A61DB01-3694-4ACA-8E59-D96156D7C250}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Netflix", "Netflix\Netflix.dtproj", "{18A1142E-8EA9-4018-ABD1-544A7C02CC57}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NetflixAnalysisService", "NetflixAnalysisService\NetflixAnalysisService.dwproj", "{8B49AA99-A631-48D3-9291-B09AB6309F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -25,6 +29,11 @@ Global
 		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.ActiveCfg = Development
 		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.Build.0 = Development
 		{3A61DB01-3694-4ACA-8E59-D96156D7C250}.Development|Default.Deploy.0 = Development
+		{18A1142E-8EA9-4018-ABD1-544A7C02CC57}.Development|Default.ActiveCfg = Development
+		{18A1142E-8EA9-4018-ABD1-544A7C02CC57}.Development|Default.Build.0 = Development
+		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.ActiveCfg = Development
+		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.Build.0 = Development
+		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
