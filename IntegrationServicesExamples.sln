@@ -15,6 +15,10 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Netflix", "Netflix\Netflix.
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NetflixAnalysisService", "NetflixAnalysisService\NetflixAnalysisService.dwproj", "{8B49AA99-A631-48D3-9291-B09AB6309F29}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "EXAM_Portal_Base", "EXAM_Portal_Base\EXAM_Portal_Base.dtproj", "{588E820E-9E61-40E7-AB50-3977CB62F948}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "EXAM_Portal_Base_AnalysisService", "EXAM_Portal_Base_AnalysisService\EXAM_Portal_Base_AnalysisService.dwproj", "{DCEB23CA-0D90-4B12-B6AD-F06625B24799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -34,6 +38,11 @@ Global
 		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.ActiveCfg = Development
 		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.Build.0 = Development
 		{8B49AA99-A631-48D3-9291-B09AB6309F29}.Development|Default.Deploy.0 = Development
+		{588E820E-9E61-40E7-AB50-3977CB62F948}.Development|Default.ActiveCfg = Development
+		{588E820E-9E61-40E7-AB50-3977CB62F948}.Development|Default.Build.0 = Development
+		{DCEB23CA-0D90-4B12-B6AD-F06625B24799}.Development|Default.ActiveCfg = Development
+		{DCEB23CA-0D90-4B12-B6AD-F06625B24799}.Development|Default.Build.0 = Development
+		{DCEB23CA-0D90-4B12-B6AD-F06625B24799}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

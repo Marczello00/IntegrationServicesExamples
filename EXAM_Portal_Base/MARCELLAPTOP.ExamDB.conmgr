@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="MARCELLAPTOP.ExamDB"
+  DTS:DTSID="{9AA56BD0-2765-4E40-A1A2-59E1D3F51647}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=MARCELLAPTOP;Initial Catalog=ExamDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-EXAM_Portal_Base-{9AA56BD0-2765-4E40-A1A2-59E1D3F51647}MARCELLAPTOP.ExamDB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

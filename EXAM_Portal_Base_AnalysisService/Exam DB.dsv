@@ -1,0 +1,299 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4d0f3f31-9b5c-4cb1-a272-744efd5b0de9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Exam DB</ID>
+  <Name>Exam DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Exam DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Exam_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Exam_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="278a5be3-431a-4adb-a9ea-ca390335eeef">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Facto" msprop:DbTableName="Facto" msprop:FriendlyName="Facto" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="ef5220c3-8e73-4715-be6f-37e528743bd1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDfacto" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDfacto" msprop:DbColumnName="IDfacto" msprop:design-time-name="619c2d8e-128b-41ec-b4f6-9a8050427642" type="xs:int" />
+                  <xs:element name="Contractual_price" msprop:FriendlyName="Contractual_price" msprop:DbColumnName="Contractual_price" msprop:design-time-name="1dc0462b-7e00-46c9-ac49-d7b0ff42b48b" type="xs:int" minOccurs="0" />
+                  <xs:element name="Effective_price" msprop:FriendlyName="Effective_price" msprop:DbColumnName="Effective_price" msprop:design-time-name="ace8059b-d313-4ce6-8cda-73aa70dffea6" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Adjudicated_entities" msprop:FriendlyName="ID_Adjudicated_entities" msprop:DbColumnName="ID_Adjudicated_entities" msprop:design-time-name="017339ec-d004-4c72-a534-3d09f218a74d" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Adjudicating_nifs" msprop:FriendlyName="ID_Adjudicating_nifs" msprop:DbColumnName="ID_Adjudicating_nifs" msprop:design-time-name="b373d870-cd2f-4ba9-813c-19870e7cdb82" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Contract_type" msprop:FriendlyName="ID_Contract_type" msprop:DbColumnName="ID_Contract_type" msprop:design-time-name="af63d1c9-c983-47c4-9d40-6694316f717a" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Contracting_entities" msprop:FriendlyName="ID_Contracting_entities" msprop:DbColumnName="ID_Contracting_entities" msprop:design-time-name="5f279d9d-f276-459f-b6a0-9bd3f43959d3" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Date_celebrate" msprop:FriendlyName="ID_Date_celebrate" msprop:DbColumnName="ID_Date_celebrate" msprop:design-time-name="766805f4-6eb6-4e9d-8ec2-9476548a7295" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Deadline_execution" msprop:FriendlyName="ID_Deadline_execution" msprop:DbColumnName="ID_Deadline_execution" msprop:design-time-name="05808422-bdce-44cf-b664-f44ca64b386c" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Nifs_adjudications" msprop:FriendlyName="ID_Nifs_adjudications" msprop:DbColumnName="ID_Nifs_adjudications" msprop:design-time-name="ce095228-482e-45af-9e6e-96afa2013b2e" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Place_of_execution" msprop:FriendlyName="ID_Place_of_execution" msprop:DbColumnName="ID_Place_of_execution" msprop:design-time-name="d8bc671d-3b8e-4242-94d5-b12af4285820" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Type_procedure" msprop:FriendlyName="ID_Type_procedure" msprop:DbColumnName="ID_Type_procedure" msprop:design-time-name="0cdb64fa-4448-4e96-9f54-ecf7f7744b34" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Object_contract" msprop:FriendlyName="ID_Object_contract" msprop:DbColumnName="ID_Object_contract" msprop:design-time-name="81d18600-bcf8-41a1-b5a4-5b06805c7206" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Deadline_execution" msprop:DbTableName="Deadline_execution" msprop:FriendlyName="Deadline_execution" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="84e9e22b-5a0f-4bfd-8108-cf1cdc2eb614">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDdeadline_execution" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDdeadline_execution" msprop:DbColumnName="IDdeadline_execution" msprop:design-time-name="60fd0a54-5a71-45c6-be0b-fa8cb4378a8d" type="xs:int" />
+                  <xs:element name="Deadline_execution" msprop:FriendlyName="Deadline_execution" msprop:DbColumnName="Deadline_execution" msprop:design-time-name="9d7a1daa-ca72-4fc5-af54-e18cc56ac112" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Date" msprop:DbTableName="Date" msprop:FriendlyName="Date" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="5aec4d53-2e02-4152-9945-975760d7efd9">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Date" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Date" msprop:DbColumnName="ID_Date" msprop:design-time-name="a6dae492-b672-493e-b85b-9c61708da0d1" type="xs:int" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="5d8439ee-6a91-4c5d-ab67-38acdbf6d7c9" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_num" msprop:FriendlyName="Month_num" msprop:DbColumnName="Month_num" msprop:design-time-name="81f23ae5-2f30-4ac6-87b1-9f843c932ba0" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="6543dcda-50e1-4d70-870d-db3da0f0c802" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Type_procedure" msprop:DbTableName="Type_procedure" msprop:FriendlyName="Type_procedure" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="4626515c-9e0f-4088-83aa-e1a28432b560">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDtype_procedure" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDtype_procedure" msprop:DbColumnName="IDtype_procedure" msprop:design-time-name="5874e82e-1d61-47a9-a44e-2200e1c5b426" type="xs:int" />
+                  <xs:element name="Type_procedure" msprop:FriendlyName="Type_procedure" msprop:DbColumnName="Type_procedure" msprop:design-time-name="25cf394b-d0a2-41c6-98f9-00c947c673d0" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_NIFs_adjudications_good" msprop:DbTableName="NIFs_adjudications_good" msprop:FriendlyName="NIFs_adjudications_good" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6e2445f3-fe47-4ef6-9da5-641a35a68af8">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_NIFs_adjudications" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_NIFs_adjudications" msprop:DbColumnName="ID_NIFs_adjudications" msprop:design-time-name="6c63ffe8-bf38-4045-81a7-a69104d7a5db" type="xs:int" />
+                  <xs:element name="NIFs_adjudications" msprop:FriendlyName="NIFs_adjudications" msprop:DbColumnName="NIFs_adjudications" msprop:design-time-name="63453d1e-f268-46b3-8f2f-212ff5726ebc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Contracting_entities" msprop:DbTableName="Contracting_entities" msprop:FriendlyName="Contracting_entities" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="f0b206ab-487a-440d-856e-9825890beddf">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDcontracting_entities" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDcontracting_entities" msprop:DbColumnName="IDcontracting_entities" msprop:design-time-name="091d63e0-b045-4225-b1cd-b9534882df74" type="xs:int" />
+                  <xs:element name="Contracting_entities" msprop:FriendlyName="Contracting_entities" msprop:DbColumnName="Contracting_entities" msprop:design-time-name="90120433-4434-4dad-97a6-a29a982749a9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Place_of_execution" msprop:DbTableName="Place_of_execution" msprop:FriendlyName="Place_of_execution" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="1315e5fc-c6aa-4192-9346-49a5e992b3a1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDplace_of_execution" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDplace_of_execution" msprop:DbColumnName="IDplace_of_execution" msprop:design-time-name="5db0757f-e109-428e-a894-e4d7d998b715" type="xs:int" />
+                  <xs:element name="Place_of_execution" msprop:FriendlyName="Place_of_execution" msprop:DbColumnName="Place_of_execution" msprop:design-time-name="fb048177-3d35-4a36-a133-e50d87e08b5a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Adjudicated_entities_good" msprop:DbTableName="Adjudicated_entities_good" msprop:FriendlyName="Adjudicated_entities_good" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="165b9703-5649-42ca-8cbb-3472dbdd4480">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Adjudicated_entities" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Adjudicated_entities" msprop:DbColumnName="ID_Adjudicated_entities" msprop:design-time-name="50178812-ebdd-4f32-988c-254b455bfd7c" type="xs:int" />
+                  <xs:element name="Adjudicated_entities" msprop:FriendlyName="Adjudicated_entities" msprop:DbColumnName="Adjudicated_entities" msprop:design-time-name="94b96d16-e9a9-4c55-8a95-7f7afc25de50" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Object_contract" msprop:DbTableName="Object_contract" msprop:FriendlyName="Object_contract" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="15c5db05-3f63-4db8-97af-371306a0cda0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Object_contract" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID_Object_contract" msprop:DbColumnName="ID_Object_contract" msprop:design-time-name="c3cf7cbb-a36a-43b0-88a6-8bdfc3874759" type="xs:int" />
+                  <xs:element name="Object_contract" msprop:FriendlyName="Object_contract" msprop:DbColumnName="Object_contract" msprop:design-time-name="69c32f57-9193-4ecc-bac0-7693470748fd" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Adjuticating_nifs" msprop:DbTableName="Adjuticating_nifs" msprop:FriendlyName="Adjuticating_nifs" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="919b679c-d980-4c6c-a2d4-72cc2ee8b5eb">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDadjuticating_nifs" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDadjuticating_nifs" msprop:DbColumnName="IDadjuticating_nifs" msprop:design-time-name="a1562f3f-7701-4cf7-ab34-c4013a9d008a" type="xs:int" />
+                  <xs:element name="Adjudicating_nifs" msprop:FriendlyName="Adjudicating_nifs" msprop:DbColumnName="Adjudicating_nifs" msprop:design-time-name="7342e0ca-c091-4a9f-9ff5-fe11fa5b9e2b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Contract_type" msprop:DbTableName="Contract_type" msprop:FriendlyName="Contract_type" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="e77da000-1d8b-4a8c-8948-397adc8850de">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IDcontract_type" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="IDcontract_type" msprop:DbColumnName="IDcontract_type" msprop:design-time-name="bc12de2e-5386-41b2-b72b-119b86926c0b" type="xs:int" />
+                  <xs:element name="Contract_type" msprop:FriendlyName="Contract_type" msprop:DbColumnName="Contract_type" msprop:design-time-name="e44db290-6af1-49b4-a8d8-1f9f3b241087" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="IDfacto" />
+        </xs:unique>
+        <xs:unique name="dbo_Deadline_execution_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Deadline_execution" />
+          <xs:field xpath="IDdeadline_execution" />
+        </xs:unique>
+        <xs:unique name="dbo_Date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Date" />
+          <xs:field xpath="ID_Date" />
+        </xs:unique>
+        <xs:unique name="dbo_Type_procedure_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Type_procedure" />
+          <xs:field xpath="IDtype_procedure" />
+        </xs:unique>
+        <xs:unique name="dbo_NIFs_adjudications_good_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_NIFs_adjudications_good" />
+          <xs:field xpath="ID_NIFs_adjudications" />
+        </xs:unique>
+        <xs:unique name="dbo_Contracting_entities_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Contracting_entities" />
+          <xs:field xpath="IDcontracting_entities" />
+        </xs:unique>
+        <xs:unique name="dbo_Place_of_execution_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Place_of_execution" />
+          <xs:field xpath="IDplace_of_execution" />
+        </xs:unique>
+        <xs:unique name="dbo_Adjudicated_entities_good_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Adjudicated_entities_good" />
+          <xs:field xpath="ID_Adjudicated_entities" />
+        </xs:unique>
+        <xs:unique name="dbo_Object_contract_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Object_contract" />
+          <xs:field xpath="ID_Object_contract" />
+        </xs:unique>
+        <xs:unique name="dbo_Adjuticating_nifs_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Adjuticating_nifs" />
+          <xs:field xpath="IDadjuticating_nifs" />
+        </xs:unique>
+        <xs:unique name="dbo_Contract_type_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Contract_type" />
+          <xs:field xpath="IDcontract_type" />
+        </xs:unique>
+        <xs:keyref name="FK_Facto_Date" refer="dbo_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Date_celebrate" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Deadline_execution" refer="dbo_Deadline_execution_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Deadline_execution" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Adjuticating_nifs" refer="dbo_Adjuticating_nifs_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Adjudicating_nifs" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_NIFs_adjudications_good1" refer="dbo_NIFs_adjudications_good_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Nifs_adjudications" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Type_procedure" refer="dbo_Type_procedure_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Type_procedure" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Place_of_execution" refer="dbo_Place_of_execution_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Place_of_execution" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Contracting_entities" refer="dbo_Contracting_entities_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Contracting_entities" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Contract_type" refer="dbo_Contract_type_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Contract_type" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Object_contract" refer="dbo_Object_contract_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Object_contract" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facto_Adjudicated_entities_good" refer="dbo_Adjudicated_entities_good_Constraint1">
+          <xs:selector xpath=".//dbo_Facto" />
+          <xs:field xpath="ID_Adjudicated_entities" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Exam_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>
